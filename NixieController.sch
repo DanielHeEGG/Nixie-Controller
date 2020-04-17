@@ -1,0 +1,112 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3000 2000 1000 1000
+U 5E933D65
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+$Comp
+L Connector:Jack-DC J1
+U 1 1 5E9D83BC
+P 1750 4600
+F 0 "J1" H 1807 4925 50  0000 C CNN
+F 1 "Jack-DC" H 1807 4834 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1800 4560 50  0001 C CNN
+F 3 "~" H 1800 4560 50  0001 C CNN
+	1    1750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E9DFE26
+P 2050 4700
+F 0 "#PWR05" H 2050 4450 50  0001 C CNN
+F 1 "GND" H 2055 4527 50  0000 C CNN
+F 2 "" H 2050 4700 50  0001 C CNN
+F 3 "" H 2050 4700 50  0001 C CNN
+	1    2050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5E9DFDAA
+P 1900 5150
+F 0 "J2" H 1872 5032 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 1872 5123 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 5150 50  0001 C CNN
+F 3 "~" H 1900 5150 50  0001 C CNN
+	1    1900 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5E9E433B
+P 2000 5700
+F 0 "J3" H 1972 5582 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 1972 5673 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2000 5700 50  0001 C CNN
+F 3 "~" H 2000 5700 50  0001 C CNN
+	1    2000 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E9E6A73
+P 1700 5150
+F 0 "#PWR02" H 1700 4900 50  0001 C CNN
+F 1 "GND" H 1705 4977 50  0000 C CNN
+F 2 "" H 1700 5150 50  0001 C CNN
+F 3 "" H 1700 5150 50  0001 C CNN
+	1    1700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E9E6FF3
+P 1800 5700
+F 0 "#PWR03" H 1800 5450 50  0001 C CNN
+F 1 "GND" H 1805 5527 50  0000 C CNN
+F 2 "" H 1800 5700 50  0001 C CNN
+F 3 "" H 1800 5700 50  0001 C CNN
+	1    1800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR04
+U 1 1 5E9E7077
+P 2050 4500
+F 0 "#PWR04" H 2050 4350 50  0001 C CNN
+F 1 "+12V" V 2065 4628 50  0000 L CNN
+F 2 "" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0001 C CNN
+	1    2050 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 5E9E83AD
+P 1700 5050
+F 0 "#PWR01" H 1700 4900 50  0001 C CNN
+F 1 "+12V" V 1715 5178 50  0000 L CNN
+F 2 "" H 1700 5050 50  0001 C CNN
+F 3 "" H 1700 5050 50  0001 C CNN
+	1    1700 5050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1800 5600 0    50   Input ~ 0
++180V
+$EndSCHEMATC
