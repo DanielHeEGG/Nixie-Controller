@@ -995,17 +995,6 @@ F3 "D[0..59]" I R 8800 6200 50
 $EndSheet
 Wire Bus Line
 	7100 6200 7800 6200
-$Comp
-L Connector:Conn_01x12_Male J1
-U 1 1 5EDD0110
-P 8950 2750
-F 0 "J1" H 9050 3450 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 9150 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8950 2750 50  0001 C CNN
-F 3 "~" H 8950 2750 50  0001 C CNN
-	1    8950 2750
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	9500 2350 9400 2250
 Wire Wire Line
@@ -1059,17 +1048,6 @@ F 3 "" H 9150 3350 50  0001 C CNN
 $EndComp
 Text GLabel 9150 3250 2    50   Input ~ 0
 +180V
-$Comp
-L Connector:Conn_01x12_Male J3
-U 1 1 5EDEC106
-P 9700 2750
-F 0 "J3" H 9800 3450 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 9900 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 9700 2750 50  0001 C CNN
-F 3 "~" H 9700 2750 50  0001 C CNN
-	1    9700 2750
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	10250 2350 10150 2250
 Wire Wire Line
@@ -1123,17 +1101,6 @@ F 3 "" H 9900 3350 50  0001 C CNN
 $EndComp
 Text GLabel 9900 3250 2    50   Input ~ 0
 +180V
-$Comp
-L Connector:Conn_01x12_Male J5
-U 1 1 5EDF1EB9
-P 10450 2750
-F 0 "J5" H 10550 3450 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 10650 3350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10450 2750 50  0001 C CNN
-F 3 "~" H 10450 2750 50  0001 C CNN
-	1    10450 2750
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	11000 2350 10900 2250
 Wire Wire Line
@@ -1187,17 +1154,6 @@ F 3 "" H 10650 3350 50  0001 C CNN
 $EndComp
 Text GLabel 10650 3250 2    50   Input ~ 0
 +180V
-$Comp
-L Connector:Conn_01x12_Male J2
-U 1 1 5EE197E2
-P 8950 4350
-F 0 "J2" H 9050 5050 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 9150 4950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8950 4350 50  0001 C CNN
-F 3 "~" H 8950 4350 50  0001 C CNN
-	1    8950 4350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	9500 3950 9400 3850
 Wire Wire Line
@@ -1251,17 +1207,6 @@ F 3 "" H 9150 4950 50  0001 C CNN
 $EndComp
 Text GLabel 9150 4850 2    50   Input ~ 0
 +180V
-$Comp
-L Connector:Conn_01x12_Male J4
-U 1 1 5EE19803
-P 9700 4350
-F 0 "J4" H 9800 5050 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 9900 4950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 9700 4350 50  0001 C CNN
-F 3 "~" H 9700 4350 50  0001 C CNN
-	1    9700 4350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	10250 3950 10150 3850
 Wire Wire Line
@@ -1315,17 +1260,6 @@ F 3 "" H 9900 4950 50  0001 C CNN
 $EndComp
 Text GLabel 9900 4850 2    50   Input ~ 0
 +180V
-$Comp
-L Connector:Conn_01x12_Male J6
-U 1 1 5EE19824
-P 10450 4350
-F 0 "J6" H 10550 5050 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 10650 4950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10450 4350 50  0001 C CNN
-F 3 "~" H 10450 4350 50  0001 C CNN
-	1    10450 4350
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	11000 3950 10900 3850
 Wire Wire Line
@@ -1720,6 +1654,72 @@ Text Label 3950 1350 0    50   ~ 0
 SCK
 Text Label 3950 1450 0    50   ~ 0
 RST
+$Comp
+L Connector:Conn_01x12_Female J1
+U 1 1 5EAD5BBD
+P 8950 2750
+F 0 "J1" H 8842 3435 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 8842 3344 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8950 2750 50  0001 C CNN
+F 3 "~" H 8950 2750 50  0001 C CNN
+	1    8950 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J3
+U 1 1 5EADB596
+P 9700 2750
+F 0 "J3" H 9592 3435 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 9592 3344 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9700 2750 50  0001 C CNN
+F 3 "~" H 9700 2750 50  0001 C CNN
+	1    9700 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J5
+U 1 1 5EAE7154
+P 10450 2750
+F 0 "J5" H 10342 3435 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 10342 3344 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 10450 2750 50  0001 C CNN
+F 3 "~" H 10450 2750 50  0001 C CNN
+	1    10450 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J6
+U 1 1 5EAF348B
+P 10450 4350
+F 0 "J6" H 10342 5035 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 10342 4944 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 10450 4350 50  0001 C CNN
+F 3 "~" H 10450 4350 50  0001 C CNN
+	1    10450 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J4
+U 1 1 5EAFF17E
+P 9700 4350
+F 0 "J4" H 9592 5035 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 9592 4944 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9700 4350 50  0001 C CNN
+F 3 "~" H 9700 4350 50  0001 C CNN
+	1    9700 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J2
+U 1 1 5EB0B020
+P 8950 4350
+F 0 "J2" H 8842 5035 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 8842 4944 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8950 4350 50  0001 C CNN
+F 3 "~" H 8950 4350 50  0001 C CNN
+	1    8950 4350
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	7100 3000 7100 6200
 Wire Bus Line
