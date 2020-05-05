@@ -1575,7 +1575,7 @@ F 3 "~" H 7200 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 1050 7000 1050
+	6250 1050 6400 1050
 Text Label 5300 1300 0    50   ~ 0
 SCL
 Wire Wire Line
@@ -1719,6 +1719,31 @@ F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 8950 4350 50 
 F 3 "~" H 8950 4350 50  0001 C CNN
 	1    8950 4350
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5EB21A49
+P 6400 850
+F 0 "BT1" H 6250 600 50  0000 R CNN
+F 1 "Battery_Cell" H 6250 700 50  0000 R CNN
+F 2 "NixieController:Keystone_1056" V 6400 910 50  0001 C CNN
+F 3 "~" V 6400 910 50  0001 C CNN
+	1    6400 850 
+	-1   0    0    1   
+$EndComp
+Connection ~ 6400 1050
+Wire Wire Line
+	6400 1050 7000 1050
+$Comp
+L power:GND #PWR016
+U 1 1 5EB25A64
+P 6400 750
+F 0 "#PWR016" H 6400 500 50  0001 C CNN
+F 1 "GND" H 6405 577 50  0000 C CNN
+F 2 "" H 6400 750 50  0001 C CNN
+F 3 "" H 6400 750 50  0001 C CNN
+	1    6400 750 
+	-1   0    0    1   
 $EndComp
 Wire Bus Line
 	7100 3000 7100 6200
