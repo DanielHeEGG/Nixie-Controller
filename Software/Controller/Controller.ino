@@ -1,5 +1,4 @@
 #include <RTClib.h>
-#include <math.h>
 
 #define DATA 1
 #define SRCLK 3
@@ -23,7 +22,6 @@ void loop() {
   delay(100);
   DateTime currentTime = rtc.now();
   int timeArr[6] = {currentTime.hour()/10, currentTime.hour()%10, currentTime.minute()/10, currentTime.minute()%10, currentTime.second()/10, currentTime.second()%10};
-  //Serial.println(timeArr[0]);
   
   byte data[8] = {0, 0, 0, 0};
   for (int i=0; i<6; i++) {
