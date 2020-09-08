@@ -421,4 +421,6 @@ Text GLabel 8400 3150 1    50   Input ~ 0
 HV
 Text GLabel 9850 3150 1    50   Input ~ 0
 HV
+Text Notes 550  7700 0    50   ~ 0
+IN-18 Nixie Socket Schematic\nCopyright (C) 2020 Daniel He\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.
 $EndSCHEMATC
